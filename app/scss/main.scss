@@ -1,0 +1,128 @@
+/*******
+		GLOBAL STYLES
+						*******/
+
+html{
+	height: 100%;
+}
+body{
+	box-sizing: border-box;
+	height: 100%;
+	font-family: "Roboto", helvetica;
+	margin-top: 0;
+}
+.btn{
+	background-color: #F05F40;
+	border: 0;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: 700;
+	border-radius: 20px;
+	padding: 15px;
+}
+.btn:hover{
+	background-color: #F05F40;
+	color: white;
+}
+.btn-alt{
+	background-color: #fff;
+	color: black;
+}
+.hr-main{
+	width: 50px;
+	border-bottom: 3px solid #F05F40;
+	margin: 1.5rem auto;
+}
+.hr-alt{
+	border-bottom: 3px solid #fff;
+}
+.fa{
+	font-size: 4rem;
+	margin-bottom: 1.5rem;
+	color: #F05F40;
+}
+/*******
+		NAVBAR SECTION
+						*******/
+.navbar{
+	border-bottom: 1px solid lightgrey;
+	width: 100%;
+	position: fixed;
+	transition: all 0.8s ease;
+}
+.navbar a{
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;		
+}
+.navbar-brand{
+	font-size: 1.2rem;
+	transition: all 0.8s ease;	
+}
+/*******
+		HEADER SECTION
+						*******/
+.main-header{
+	background: #999 url("../img/laptop3.jpg");
+	background-size: cover;
+	background-attachment: fixed;	
+	height: 120vh;
+	text-align: center;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+.header-text{
+	margin: 1rem auto;
+	width: 80%;
+/*	background-color: rgba(255, 255, 255, 0.05)
+*/}
+.header-text h1{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-weight: 900;
+	font-size: 3rem;
+	
+}
+.header-text p{
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+/*******
+		CONTENT SECTIONS
+						*******/
+.content-box{
+	background-color: #F05F40;
+	padding: 4rem 0;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+.content-box-alt{
+	color: #222;
+	background-color: #fff;
+}
+.content-box-download{
+	color: #fff;
+	background-color: #222;
+
+}
+.gallery{
+	background-color: #F05F40;
+	color: white;
+	width: 100%;
+}
+.gallery img{
+	width: 100%;
+}
+.gallery .container{
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+}
