@@ -1,5 +1,9 @@
 $(document).ready(function(){
+
 	pageAnimations.checkScroll();
+	pageAnimations.checkWidth();
+
+
 	$(window).scroll(function(){
 		pageAnimations.checkScroll();
 	});
@@ -44,7 +48,7 @@ const pageAnimations = {
 			"background-color" : "#fff"
 		});
 		$(".navbar-brand").css({
-			"font-size" : "1rem"
+			"font-size" : "1.1rem"
 		});		
 		$(".navbar a").css({
 			"color" : "#F05F40"

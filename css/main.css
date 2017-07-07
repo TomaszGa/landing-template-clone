@@ -1,1 +1,143 @@
-html{height:100%}body{-webkit-box-sizing:border-box;box-sizing:border-box;height:100%;font-family:Roboto,helvetica;margin-top:0}.btn{background-color:#f05f40;border:0;color:#fff;text-transform:uppercase;font-size:.9rem;font-weight:700;border-radius:20px;padding:15px}.btn:hover{background-color:#f05f40;color:#fff}.btn-alt{background-color:#fff;color:#000}.hr-main{width:50px;border-bottom:3px solid #f05f40;margin:1.5rem auto}.hr-alt{border-bottom:3px solid #fff}.fa{font-size:4rem;margin-bottom:1.5rem;color:#f05f40}.navbar{border-bottom:1px solid #d3d3d3;width:100%;position:fixed;-webkit-transition:all .8s ease;transition:all .8s ease}.navbar a{font-weight:900;text-transform:uppercase;color:#fff}.navbar-brand{font-size:1.2rem;-webkit-transition:all .8s ease;transition:all .8s ease}.main-header{background:#999 url(../img/laptop3.jpg);background-size:cover;background-attachment:fixed;height:120vh;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header-text{margin:1rem auto;width:80%}.header-text h1{text-transform:uppercase;color:#fff;text-align:center;font-weight:900;font-size:3rem}.header-text p{color:#fff;text-align:center;font-size:1.2rem}.content-box{background-color:#f05f40;padding:4rem 0;color:#fff;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.content-box-alt{color:#222;background-color:#fff}.content-box-download{color:#fff;background-color:#222}.gallery{background-color:#f05f40;color:#fff;width:100%}.gallery img{width:100%}.gallery .container{width:100%;padding-right:0;padding-left:0}
+/*******
+		GLOBAL STYLES
+						*******/
+html {
+  height: 100%; }
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  font-family: "Roboto", helvetica;
+  margin-top: 0; }
+
+.btn {
+  background-color: #F05F40;
+  border: 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 15px; }
+
+.btn:hover {
+  background-color: #F05F40;
+  color: white; }
+
+.btn-alt {
+  background-color: #fff;
+  color: black; }
+
+.hr-main {
+  width: 50px;
+  border-bottom: 3px solid #F05F40;
+  margin: 1.5rem auto; }
+
+.hr-alt {
+  border-bottom: 3px solid #fff; }
+
+.fa {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  color: #F05F40; }
+
+/*******
+		NAVBAR SECTION
+						*******/
+.navbar {
+  border-bottom: 1px solid transparent;
+  width: 100%;
+  position: fixed;
+  transition: all 0.8s ease;
+  color: white !important; }
+
+.navbar a {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white; }
+
+.navbar-brand {
+  font-size: 1.2rem;
+  transition: all 0.8s ease; }
+
+/*******
+		HEADER SECTION
+						*******/
+.main-header {
+  background: #999 url("../img/laptop3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center; }
+
+.header-wrapper {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2; }
+
+.header-text {
+  margin: 1rem auto;
+  width: 80%;
+  /*	background-color: rgba(255, 255, 255, 0.05)
+*/ }
+
+.header-text h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3rem; }
+
+.header-text p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem; }
+
+@media (max-width: 992px) {
+  .header-text h1 {
+    font-size: 2.1rem;
+    margin-top: 2rem; }
+  .header-text .hr-main {
+    margin: 1rem auto; } }
+
+/*******
+		CONTENT SECTIONS
+						*******/
+.content-box {
+  background-color: #F05F40;
+  padding: 4rem 0;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center; }
+
+.content-box-alt {
+  color: #222;
+  background-color: #fff; }
+
+.content-box-download {
+  color: #fff;
+  background-color: #222; }
+
+.gallery {
+  background-color: #F05F40;
+  color: white;
+  width: 100%; }
+
+.gallery img {
+  width: 100%;
+  height: 100%; }
+
+.gallery .container {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0; }
+
+.reverse-type-paragraph {
+  font-weight: 500;
+  font-size: 1.1rem; }
